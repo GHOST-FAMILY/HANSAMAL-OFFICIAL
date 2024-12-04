@@ -77,14 +77,14 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "GHOST-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`; 
+                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɢʜᴏꜱᴛ.*\n\n ◦ *Github:* https://github.com/KIND-GHOST/GHOST-MD-3.git`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
 title: "ɢʜᴏꜱᴛ-ᴍᴅ",
-thumbnailUrl: "https://cdn.dribbble.com/users/15468/screenshots/2450252/logo.jpg",
-sourceUrl: "https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04",
+thumbnailUrl: "https://files.catbox.moe/41sdu1.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -93,14 +93,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
+                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɢʜᴏꜱᴛ.*\n\n ◦ *Github:* https://github.com/KIND-GHOST/GHOST-MD-3.git`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
-thumbnailUrl: "https://cdn.dribbble.com/users/15468/screenshots/2450252/logo.jpg",
-sourceUrl: "https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04",
+title: "ɢʜᴏꜱᴛ-ᴍᴅ",
+thumbnailUrl: "https://files.catbox.moe/41sdu1.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
